@@ -33,7 +33,6 @@ export function ForecastCard({ moonData, index }: ForecastCardProps) {
               alt={`${moonData.phaseName} moon phase`}
               fill
               className="object-cover rounded-full"
-              unoptimized
             />
           </div>
           <div className="relative z-10 w-full h-full">
@@ -42,7 +41,6 @@ export function ForecastCard({ moonData, index }: ForecastCardProps) {
               alt={`${moonData.phaseName} moon phase`}
               fill
               className="object-cover rounded-full"
-              unoptimized
             />
           </div>
         </motion.div>

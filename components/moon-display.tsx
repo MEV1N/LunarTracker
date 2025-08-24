@@ -37,7 +37,6 @@ export function MoonDisplay({ moonData, size = 'large' }: MoonDisplayProps) {
             alt={`${moonData.phaseName} moon phase`}
             fill
             className="object-cover rounded-full"
-            unoptimized
           />
         </div>
         <div className="relative z-10 w-full h-full">
@@ -46,7 +45,6 @@ export function MoonDisplay({ moonData, size = 'large' }: MoonDisplayProps) {
             alt={`${moonData.phaseName} moon phase`}
             fill
             className="object-cover rounded-full shadow-2xl"
-            unoptimized
           />
         </div>
       </motion.div>

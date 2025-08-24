@@ -3,7 +3,7 @@ export interface MoonPhase {
   phase: string;
   illumination: number;
   phaseName: string;
-  emoji: string; // Now contains image URL instead of emoji
+  emoji: string; // Contains local image path (e.g., '/img/full.webp')
 }
 
 export interface MoonPhaseData {
